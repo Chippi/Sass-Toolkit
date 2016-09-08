@@ -1,0 +1,78 @@
+
+/* General helpers */
+.no-overflow {
+    overflow: hidden;
+}
+
+.display-none {
+    display: none;
+}
+
+
+/* Text helpers */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+/* Cursor helpers */
+.cursor-default {
+    cursor: default;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+/* Flex helpers */
+.display-flex {
+    display: flex;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.no-shrink {
+    flex-shrink: 0;
+}
+
+.no-grow {
+    flex-grow: 0;
+}
+
+.flex-right {
+    margin-left: auto;
+}
