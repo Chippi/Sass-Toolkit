@@ -1,0 +1,86 @@
+//Put in a settings file, eg _settings.scss / _variables.scss
+$helper-values: (0, 5, 10, 15, 20, 25, 30);
+
+@mixin generate-margin-helpers() {
+    @each $value in $helper-values {
+
+        //margin
+        .m#{$value} {
+            margin: #{$value}px !important;
+        }
+
+        //margin left & right
+        .mx#{$value} {
+            margin-left: #{$value}px !important;
+            margin-right: #{$value}px !important;
+        }
+
+        //margin top & bottom
+        .my#{$value} {
+            margin-bottom: #{$value}px !important;
+            margin-top: #{$value}px !important;
+        }
+
+        //margin-top
+        .mt#{$value} {
+            margin-top: #{$value}px !important;
+        }
+
+        //margin-right
+        .mr#{$value} {
+            margin-right: #{$value}px !important;
+        }
+
+        //margin-bottom
+        .mb#{$value} {
+            margin-bottom: #{$value}px !important;
+        }
+
+        //margin-left
+        .ml#{$value} {
+            margin-left: #{$value}px !important;
+        }
+    }
+}
+
+@mixin generate-padding-helpers() {
+    @each $value in $helper-values {
+
+        //padding
+        .p#{$value} {
+            padding: #{$value}px !important;
+        }
+
+        //padding left & right
+        .px#{$value} {
+            padding-left: #{$value}px !important;
+            padding-right: #{$value}px !important;
+        }
+
+        //padding top & bottom
+        .py#{$value} {
+            padding-bottom: #{$value}px !important;
+            padding-top: #{$value}px !important;
+        }
+
+        //padding-top
+        .pt#{$value} {
+            padding-top: #{$value}px !important;
+        }
+
+        //padding-right
+        .pr#{$value} {
+            padding-right: #{$value}px !important;
+        }
+
+        //padding-bottom
+        .pb#{$value} {
+            padding-bottom: #{$value}px !important;
+        }
+
+        //padding-left
+        .pl#{$value} {
+            padding-left: #{$value}px !important;
+        }
+    }
+}
