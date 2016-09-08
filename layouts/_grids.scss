@@ -1,0 +1,7 @@
+
+//Simple 12 box width grid
+@for $i from 1 through 12 {
+    .gr#{$i} {
+        width: percentage($i / 12);
+    }
+}
